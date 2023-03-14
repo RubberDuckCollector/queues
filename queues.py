@@ -27,7 +27,7 @@ def round_robin():
     # goes through the queue sequentially giving each task a time slice
     # until all the tasks are complete
 
-    # the numbers in the list represent the time left to finish computing them (see line 38 comment)
+    # the numbers in the list represent the time left to finish computing them (see line 39 comment)
     queue = [1, 3, 2, 2, 1, 4, 1, 3, 4, 1]
     #        0  1  2  3  4  5  6  7  8  9
     task = 1
